@@ -66,7 +66,6 @@ const runComparison = () => {
   const rightStates = document.querySelectorAll("#right-summary .notification");
 
   leftStates.forEach((leftData, index) => {
-    console.log("I am here!");
     let rightData = rightStates[index];
     let leftValue = parseInt(leftData.dataset.value);
     let rightValue = parseInt(rightData.dataset.value);
